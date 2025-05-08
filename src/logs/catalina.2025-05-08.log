@@ -1,0 +1,36 @@
+08-May-2025 10:25:58.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.104
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 4 2025 12:32:55 UTC
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.104.0
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+08-May-2025 10:25:58.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.2+7-58
+08-May-2025 10:25:58.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-May-2025 10:25:58.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src
+08-May-2025 10:25:58.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\LOQ\Desktop\Frontend-web\servers\apache-tomcat-9.0.104
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2025 10:25:58.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\LOQ\Desktop\Frontend-web\servers\apache-tomcat-9.0.104
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src\temp
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src\conf\logging.properties
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=52509:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stdout.encoding=UTF-8
+08-May-2025 10:25:58.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stderr.encoding=UTF-8
+08-May-2025 10:25:58.762 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Users\LOQ\AppData\Local\Programs\Python\Launcher\;C:\Users\LOQ\AppData\Local\Microsoft\WindowsApps;C:\Users\LOQ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LOQ\AppData\Roaming\npm;C:\Users\LOQ\.fly\bin;C:\Users\LOQ\AppData\Local\GitHubDesktop\bin;C:\Users\LOQ\AppData\Local\Microsoft\WindowsApps;;C:\Users\LOQ\AppData\Local\Programs\Ollama;C:\Users\LOQ\.dotnet\tools;.]
+08-May-2025 10:25:59.199 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-May-2025 10:25:59.216 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [726] milliseconds
+08-May-2025 10:25:59.267 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-May-2025 10:25:59.267 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.104]
+08-May-2025 10:25:59.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src\conf\Catalina\localhost\ROOT.xml]
+08-May-2025 10:25:59.434 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+08-May-2025 10:25:59.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\LOQ\Desktop\Frontend-web\frontend-web\src\conf\Catalina\localhost\ROOT.xml] has finished in [390] ms
+08-May-2025 10:25:59.685 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2025 10:25:59.717 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [500] milliseconds
