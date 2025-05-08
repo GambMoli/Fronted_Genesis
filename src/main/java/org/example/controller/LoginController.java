@@ -8,9 +8,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet("/login")
+@WebServlet("/auth")  // Cambiado de "/login" a "/auth" para evitar conflictos con la página JSP
 public class LoginController extends HttpServlet {
 
     private final AuthService authService = new AuthService();
@@ -25,10 +26,23 @@ public class LoginController extends HttpServlet {
         User user = new User(username, password);
 
         if (authService.authenticate(user)) {
-            request.setAttribute("username", user.getUsername());
-            request.getRequestDispatcher("welcome.jsp").forward(request, response);
+            // Crear sesión para el usuario autenticado
+            HttpSession session = request.getSession();
+            session.setAttribute("user", user);
+            session.setAttribute("username", username);
+
+            // Redirigir a la página de chats
+            response.sendRedirect(request.getContextPath() + "/views/chats/chats.jsp");
         } else {
-            response.sendRedirect("login.jsp?error=true");
+            // Redirigir de vuelta a login con mensaje de error
+            response.sendRedirect(request.getContextPath() + "/login.jsp?error=true");
         }
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Redirigir a la página de login si se accede por GET
+        response.sendRedirect(request.getContextPath() + "/login.jsp");
     }
 }

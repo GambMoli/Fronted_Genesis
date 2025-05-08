@@ -66,7 +66,8 @@
         <div class="error">Usuario o contraseña incorrectos</div>
     <% } %>
 
-    <form action="login" method="post">
+    <!-- Cambiado action="login" a action="auth" para que coincida con el nuevo mapeo del servlet -->
+    <form action="auth" method="post">
         <label for="username">Usuario:</label>
         <input type="text" id="username" name="username" required>
 

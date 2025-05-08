@@ -7,7 +7,7 @@
     <display-name>frontend-web</display-name>
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>views/chats/chats.jsp</welcome-file>
     </welcome-file-list>
 
     <!-- Servlet personalizado -->
