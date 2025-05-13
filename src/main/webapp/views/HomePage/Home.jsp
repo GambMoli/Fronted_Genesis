@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../../Components/Header/header.jsp" %>
-
 <link rel="stylesheet" href="${pageContext.request.contextPath}/views/HomePage/StyleHome.css">
+
     <body>
 
-       <div class="info-row">
+       <div class="info-row" style="display: flex; margin-top: 40px;">
        <%@ include file="/Components/ButtonsHome/Buttons.jsp" %>
            <!-- Información Académica -->
            <div class="academic-info">
