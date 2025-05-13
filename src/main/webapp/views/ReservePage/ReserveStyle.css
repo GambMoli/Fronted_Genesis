@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Container_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContainerTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 35px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}

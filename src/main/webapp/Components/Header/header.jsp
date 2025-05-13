@@ -17,7 +17,7 @@
     <div class="container-fluid px-0">
         <!-- Logo and branding -->
         <div class="d-flex justify-content-center">
-            <img src="${pageContext.request.contextPath}/assets/logo.png" alt="Logo UDES" class="udes-logo">
+            <img src="${pageContext.request.contextPath}/Assets/logo.png" alt="Logo UDES" class="udes-logo">
         </div>
 
         <!-- Navigation bar -->
@@ -59,7 +59,7 @@
 <div class="sub-header">
     <div class="container-fluid">
         <div class="py-2 px-4">
-            <strong>PORTALES INSTITUCIONALES</strong>
+
         </div>
     </div>
 </div>
