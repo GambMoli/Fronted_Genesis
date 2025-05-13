@@ -59,7 +59,7 @@
 <div class="sub-header">
     <div class="container-fluid">
         <div class="py-2 px-4">
-            <strong>PORTALES INSTITUCIONALES</strong>
+
         </div>
     </div>
 </div>

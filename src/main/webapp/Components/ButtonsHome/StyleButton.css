@@ -43,5 +43,5 @@
 .dosBotones {
     display: flex;
     justify-content: start;
-    gap: 40px;
+    width:94%;
 }
