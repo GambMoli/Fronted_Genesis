@@ -1,23 +1,33 @@
-Body{
-    heigth:100vh;
-    width:100%;
-    display;flex;
-    justify-content;center;
-}
-
-.Container_principal{
+body {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
-.ContainerTable{
-display: flex;
+
+.Container_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContainerTable {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 35px;
-    margin-left: 55px;
+    margin: 20px 35px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
 }
-.ContainerButton{
+
+.containerButton {
     display: flex;
-    justify-content: end;
-    margin: 35px;}
+    justify-content: flex-end;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
